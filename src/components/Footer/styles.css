@@ -1,0 +1,41 @@
+footer {
+  background-color: #444;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 30px;
+  height: 70px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+a p {
+  font-size: 0.75rem;
+  color: white;
+}
+
+@media (max-width: 580px) {
+  .icon-footer {
+    width: 40px;
+    height: 40px;
+  }
+  a p {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 470px) {
+  .icon-footer {
+    width: 30px;
+    height: 30px;
+  }
+  a p {
+    font-size: 0.5rem;
+  }
+}

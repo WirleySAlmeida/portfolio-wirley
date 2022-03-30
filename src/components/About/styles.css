@@ -1,0 +1,64 @@
+main {
+  background: url('../../assets/darkblueprint.jpg');
+  height: calc(100vh - 70px);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+.infos-about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.title-about {
+  font-weight: 500;
+}
+
+.text-about {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.subtitle-about {
+  font-weight: 300;
+}
+
+.picture {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.picture img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 750px) {
+  .text-about {
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .infos-about {
+    font-size: 0.75rem;
+    justify-content: center;
+  }
+
+  .picture {
+    width: 200px;
+    height: 200px;
+  }
+}

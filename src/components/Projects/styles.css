@@ -1,0 +1,67 @@
+.content-projects {
+  background: url('../../assets/darkblueprint.jpg');
+  height: 100vh;
+  color: white;
+}
+
+.title-projects {
+  text-align: center;
+  padding: 10px;
+  font-weight: 300;
+}
+
+.list-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-list-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px;
+}
+
+.name-projects {
+  font-weight: 300;
+  color: white;
+}
+
+.image-projects {
+  border-radius: 5px;
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+.image-projects:hover {
+  opacity: 1;
+}
+
+@media (max-width: 720px) {
+  .image-projects {
+    width: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-projects {
+    font-size: 0.75rem;
+  }
+  .item-list-projects {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 440px) {
+  .content-projects {
+    font-size: 0.6rem;
+  }
+  .item-list-projects {
+    margin: 0 5px;
+  }
+  .image-projects {
+    width: 150px;
+  }
+}

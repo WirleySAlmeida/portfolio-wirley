@@ -1,0 +1,56 @@
+.content-skills {
+  background: url('../../assets/darkblueprint.jpg');
+  height: 100vh;
+  color: white;
+}
+
+.title-skills {
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 20px;
+}
+
+.badges-skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.subtitle-skills {
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px; 
+}
+
+.container-badges-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+@media (max-width: 650px) {
+  .container-badges-skills {
+    padding: 0 20px;
+    justify-content: center;
+    gap: 50px;
+  }
+}
+
+@media (max-width: 590px) {
+  .badges-skills {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 460px) {
+  .content-skills {
+    font-size: 0.75rem;
+  }
+
+  .container-badges-skills {
+    gap: 30px;
+  }
+}

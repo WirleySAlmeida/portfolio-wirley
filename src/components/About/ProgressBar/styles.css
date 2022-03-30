@@ -1,0 +1,15 @@
+.progress {
+  background-color: chartreuse;
+  height: 10px;
+  border-radius: 1rem;
+  animation: progres 3s infinite linear;
+}
+
+@keyframes progres{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
+  }
+}
